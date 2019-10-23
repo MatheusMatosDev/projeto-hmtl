@@ -1,0 +1,5 @@
+para associar o pc a conta do git - ssh-keygen
+Enter toda vida e dps 
+vim . ssh/id_rsa.pub para achar a chave
+dois pontos q (para sair )
+git.clone para clonar entre pcs 
