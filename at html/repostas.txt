@@ -1,0 +1,23 @@
+
+1)Se precisarmos trabalhar em um site que já está pronto, o site mobile talvez seja a melhor opção, 
+pois com o site mobile você tem maior liberdade para desenvolver devido ao fato que é ele é praticamente 
+um novo site independente. 1)b) Não pois o site não estava pronto.
+
+2)você pode criar uma folha de estilos separada para impressão, e colocar isso no head do html: <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+
+
+
+
+1) atributos: src, type, codecs e media
+   conteudos: os conteudos sao repectivamente o arquivo de audio em diferentes formatos como mp3 ou wav e no type voce colocara audio/formato do audio. no codecs vc colocara o formato tbm e no media informa ao navedado o tipo de mídia
+   outros atributos do audio: controls(aparece o controles do audio como play, volume etc), muted(deixa o audio mutado) , autoplay(para dar play quando a pagina carrega), preload q tem a opçao auto(download quando a pagina carrega pra poder tocar) none(não faz o download quando a pagina carrega) e metadata(download as informações do arquivo)
+
+2) atributos: src e type 
+   conteudos: os conteudos sao repectivamente o arquivo de vídeo em diferentes formatos como mp4, ogg e WebM(temos q ficar atentos pois nem todos os navegadores aceitam esses 3 formatos) no type voce colocara video/formato do video.
+   outros atributos: controls(aparece o controles do video como play, volume ,ampliar a tela),  autoplay(para dar play quando a pagina carrega) e  preload q tem a opçao auto(download quando a pagina carrega pra poder tocar) none(não faz o download quando a pagina carrega) e metadata(download as informações do arquivo)
+
+3) é necessario utilizar css e java script, são funcionalidades especificas que vc pode usar para atuar no escopo da página e da manipulaçao de elementos.
+
+
+
+4) ele pode ser aplicado para mudar as aparencias, por exemplo usar width para mudar o comprimento

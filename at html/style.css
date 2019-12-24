@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: rgb(219, 203, 52);
+}
+#jogo{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.jogoMemoria{
+    width: 160px;
+    height: 150px;
+    /* width: calc(25%-10px); */
+    /* height: 33%; */
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.2s ;
+}
+.jogoMemoria:active {
+    transform: rotate(0.97);
+}
+.jogoMemoria.flip {
+    transform: rotateY(180deg);
+}
+.imagem,
+.verso{
+    padding: 20px;
+    width: 128px;
+    height: 128px;
+    background: rgb(20, 168, 179);
+    position: absolute;
+}
+
+.imagem{
+    transform: rotateY(180deg);
+}
+.butao{
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+
+
+}
+#para{
+    display: inline-block;
+}

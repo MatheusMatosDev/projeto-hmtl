@@ -1,0 +1,379 @@
+@font-face{
+    font-family: 'MCF Joker';
+    src: url('MCF Joker.ttf'); 
+}
+body{
+    background: rgb(16,32,48);
+    font-family:'MCF Joker';
+}
+h1{
+    text-align: center;
+}
+header{
+    text-align: center;
+
+}
+header h1{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    font-size: 25px;
+    font-family:'MCF Joker';
+    padding: 5px;
+    height: 50px;
+
+    
+}
+
+nav{
+    background: cornsilk;
+    text-align: center;
+    border-radius: 5px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+}
+li a, .dropbutao{
+    display: inline-block;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+   
+li a:hover{
+    padding: 13px 15px;
+   font-size: 30px;
+
+}
+li.dropdown{
+    display: inline-block;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+
+}
+.dropdown-content a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    background: cornsilk;
+    border-radius: 5px;
+    }
+.dropdown-content a :hover{
+    font-size: 25px!important;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    text-align: center;
+
+    
+}
+#loginbolado a{
+   color: #a21d30;
+}
+div.subdestaque{
+    display: flex;
+    
+   
+    
+}
+div.item{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column ;
+   flex-wrap: wrap ;
+    
+}
+div.descricao{
+    text-align: center;
+    padding: 10px 20px;
+    background:linear-gradient(to right, #2b3d3e, #506768);
+    margin: 5px;
+    margin-bottom: 10px;
+    border:solid 3px #2b3d3e;
+    
+    
+}
+
+.imagem{
+    height: 300px;
+    margin: 50px;
+    border:solid 3px #2b3d3e;
+}
+
+.imagem:hover{
+    transform: scale(1.2);
+    
+}
+
+#divBusca{
+    background-color: rgb(16,32,48);
+    border:solid 2px #2b3d3e;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    display: flex;
+    margin: 20px;
+    margin: 0 auto;
+  }
+   
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:190px;
+    color: #a5c9d2;
+  }
+   
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:75px;
+    font-weight:bold;
+    background:linear-gradient(to right, #2b3d3e, #506768);
+}
+   
+  #divBusca img{
+    float:left;
+    width: 10%;
+
+  }
+  .capa img{
+    margin: 0 auto;
+    display: flex;
+    border:solid 3px #2b3d3e;
+    width: 40%;
+    height: 40%;
+    
+    
+  }
+  .capa{
+      margin: 50px;
+  }
+  .capa img:hover {
+      transform: scale(1.1);
+
+  }
+  .comentarios{
+    background:linear-gradient(to right, #161515, #506768);
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    border:solid 3px #2b3d3e;
+
+    
+  }
+  .comentarios img{
+    border:solid 3px #000000;
+    width: 70px;
+    margin: 5px;
+    display: flex;
+
+  }
+  .comentarios textarea{
+      margin: 5px;
+      width: 50%;
+      display: flex;
+      height: 30%;
+  }
+  .rodape{
+    background:linear-gradient(to right, #161515, #506768);
+    margin: 20px;
+    display: flex;
+    border:solid 3px #2b3d3e;
+    
+  }
+  .rodape img{
+    width: 3%;
+    margin: 10px;
+
+  }
+
+  .rodape .links a {
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      padding: 5px;
+      margin: 20px;
+  }
+  .rodape a:hover {
+    
+    font-size: 30px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row-reverse ;
+}
+.pagsobre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:linear-gradient(to right, #0FF0B3, #036ED9);
+    margin: 100px;
+}
+.pagsobre h1{
+    text-align: center;
+}
+
+.pagsobre h2{
+    text-align: center;
+}
+.pagsobre p{
+    text-align: center;
+}
+.pagsobre h3{
+    text-align: center;
+}
+
+form{
+     margin: 0 auto;
+     width: 400px;
+     padding: 1em;
+     border: 1px solid #CCC;
+     border-radius: 1em;
+     font-size: 20px;
+     font-family: monospace;
+    background:linear-gradient(to right, #161515, #506768);
+
+
+}
+label,select{
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+div input,select{
+      font: 1em sans-serif;
+      width: 300px;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #999;
+      margin: 2px;
+}
+div textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    vertical-align: top;
+
+      height: 5em;
+      resize: vertical;
+
+
+}
+.noticiatitulo{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.resident img{
+   display: block;
+   margin: 0 auto;
+   border:solid 3px #2b3d3e;
+}
+.description{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.noticiaspag{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+.linkeson:hover {
+    font-size: 25px;
+
+}
+.menus div{
+    display: none;
+
+}
+.menus div:target {
+   display: flex;
+}
+
+.menus div:target tr{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+
+.cad , .log ,.tabela{
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+    margin:0 auto;  
+    padding:10px;
+    margin-top: 100px;
+}
+.tabela{
+    background:linear-gradient(to right, #161515, #506768);
+    width: 60%;
+}
+.cad h2 , .log h2{
+    text-align: center;
+    color: white;
+    
+}
+
+.tabela th{
+    padding:10px 10px;
+    font-family: monospace;
+}
+.thzin:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+.description p a{
+    text-decoration: none; 
+    color: aqua;
+
+}
+.maisnoticias{
+
+    text-align: center; font-size: 40px ;
+}
+.facebook, .instagram, .twitter
+{ display: inline-block; background: url('download.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.facebook { background-position: -0px -0px; width: 64px; height: 64px; }
+.instagram { background-position: -0px -64px; width: 64px; height: 64px; }
+.twitter { background-position: -0px -128px; width: 64px; height: 64px; }
+
+.facebook:hover{
+    transform: scale(1.1);
+}
+
+.instagram:hover{
+    transform: scale(1.1);  
+}
+.twitter:hover{
+    transform: scale(1.1);
+}

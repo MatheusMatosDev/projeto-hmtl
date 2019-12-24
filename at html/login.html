@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portal de games noticias</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="celular.css" type="text/css" media="(max-width: 300px)" />
+    <link rel="stylesheet" href="celular.css" type="text/css" media="(max-width: 480px)" />
+    <script src="modernizr-custom.js" ></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+                <img  id="logo" src="logo.png" alt="Logotipo " title="Logotipo Portal games">
+        </header>
+        <section>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown"  id="loginbolado">
+                <a href="" class="dropbutao" >Registro</a>
+                <div class="dropdown-content">
+                    <a href="login.html#log">Login</a>
+                    <a href="login.html#cad">Cadastro</a>
+            </div>
+            </li>
+            <li><a href="Sobre.html">Sobre</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main>
+        
+<div class="menus">
+        <div id="cad" class="cad">
+                <form id="cadas" class="cadas" action="login.html#user">
+                <h2> Registre-se</h2>
+                    
+                    <label for="Nome"> Nome: </label>
+                    <input type="text" id="Nome" name="nome" placeholder = "Insira seu nome"  required>
+                
+                    <label for="login"> Login: </label>
+                    <input type="text" id="login" name="login" placeholder = "Insira seu nome de usuário"  required>
+                    
+                    <label for="senha"> Senha: </label>
+                    <input type="password" id="senha"  placeholder = "Insira sua senha"  required>
+                    
+
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email"  placeholder="Digite aqui o email" required/> 
+                
+                    <input type="submit" class="botaosub" value="enviar">
+                </form>             
+        </div>
+        
+        <div id="log" class="log"> 
+                <form id="logs" class="logs" action="login.html#user">
+                    <h2> Faça seu login</h2>
+                    
+                        <label for="loginzada"> Login: </label>
+                        <input type="text" id="loginzada" placeholder = "Insira seu nome de usuário"  required>
+                    
+                        <label for="pass"> Senha: </label>
+                        <input type="password" id="pass" placeholder = "Insira sua senha"  required>
+                   
+                    
+                    <input id="butEnviar_Login" type="submit" value="enviar" class="butEnviar" formtarget="login.html#user">
+                    <p> Ainda não cadastrado? <a  id="registro" href="login.html#cad">Clique aqui </a>e registre-se</p>
+                </form>             
+        </div>
+        
+        <div id="user" class="user"> 
+            <table id="tabela" class="tabela">
+                <tr>
+                    <th class="thzin">Adicionar Cash</th>
+                    <th class="thzin">adicionar amigos</th>
+                    
+                </tr>
+                <tr>
+                    <th class="thzin">mudar senha </th>
+                    <th class="thzin">mudar email</th>
+                </tr>
+            </table>
+        </div>
+    </div>    
+</main>
+
+    
+   
+    <footer>
+            <div class="rodape" >  
+                    <div>
+                            <a href="https://www.facebook.com/" target="_blank" title="link para facebook" > <div class="facebook"></div></a> 
+                           <a href="https://www.instagram.com/" target="_blank" title="link para instagram"> <div class="instagram"></div> </a>
+                           <a href="https://www.twitter.com/" target="_blank" title="link para twitter"> <div class="twitter"></div></a>
+                        </div>
+                        <div class="links">
+                                <a href="contato.html">Contato</a>
+                                <a href="noticias.html">Noticias</a>
+                    
+                                </div>
+                    </div>
+        </footer>
+    </div>
+</body>
+</html>

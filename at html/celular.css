@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    background-color:steelblue;
+    font-size: 10px!important;
+}
+
+header{
+	text-align:center;
+}
+header img{
+	height: 150px;
+	width:150px;
+	margin: 0 auto !important;
+	border-radius:0;
+	/*transform: rotate(-45deg);*/
+}
+
+ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    font-size: 25px;
+    font-family:'MCF Joker';
+    padding: 5px;
+    height: 50px;
+    font-size: 100%!important ;
+  
+
+    
+}
+
+nav{
+    background: cornsilk;
+    text-align: center;
+    border-radius: 5px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+li a, .dropbutao{
+    display: inline-block;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+   
+li a:hover{
+    padding: 13px 15px;
+   font-size: 150%;
+
+}
+li.dropdown{
+    display: inline-block;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+
+}
+.dropdown-content a{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    right: 10px;
+    background: cornsilk;
+    border-radius: 5px;
+    }
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    text-align: center;
+}
+div.subdestaque{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+div.item{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap ;
+    margin: auto;
+    
+}
+div.descricao{
+    text-align: center;
+    padding: 10px 20px;
+    background:linear-gradient(to right, #2b3d3e, #506768);
+    margin: 5px;
+    margin-bottom: 10px;
+    border:solid 3px #2b3d3e;
+    
+}
+
+.imagem{
+    margin: auto;
+    width:40%;
+    height: 40%; 
+    margin: 50px;
+    border:solid 3px #2b3d3e;
+
+   
+    
+}
+
+.imagem:hover{
+    transform: scale(1.2);
+    
+}
+form{
+    width: 50%;
+    height:50% ;
+}
+input{
+    width: 60%!important;
+}
+.rodape{
+    width: 70%;
+}
+.resident img{
+    width: 70%;
+}
+h1,h2,h3{
+    font-size: 130%!important;
+}
+.description{
+    font-size: 100%!important;
+}
+textarea{
+    width: 60%!important;
+}
+.rodape{
+    font-size: 100%!important;
+}

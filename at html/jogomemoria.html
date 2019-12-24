@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title >Jogo da memoria</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="modernizr-custom.js" ></script>
+</head>
+<body>
+    <div class="butao">
+        <button onclick="iniciar()" id="btn">Iniciar</button>
+        <button onclick="mostrar()" id="bt">Tempo mais rapido?</button>
+        <p id="para"></p>
+      </div>
+      
+<div id="jogo" >
+ 
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script charset="utf8">
+  var app = { nrComponentes:0 };
+  app.getComponente = function(nome) {
+    if (!app[nome]) {
+      app[nome] = {};
+      app[app.nrComponentes++] = nome;
+    }
+    return app[nome];
+  };
+</script>
+<script src="script.js" charset="utf8"></script>
+</body>
+</html>
